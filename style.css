@@ -1,0 +1,57 @@
+.circle{
+        width: 80px;
+        height: 80px;
+        border: 3px solid yellow;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 22px;
+        font-weight: bold;
+        color: yellow;
+    }
+
+    .circle-o{
+        width: 80px;
+        height: 80px;
+        border: 3px solid orange;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 22px;
+        font-weight: bold;
+        color: orange;
+    }
+
+    .circle-g{
+        width: 80px;
+        height: 80px;
+        border: 3px solid green;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 22px;
+        font-weight: bold;
+        color: green;
+    }
+
+    .orange{
+        font-size: 14px;
+        font-weight: 100;
+        color: orange;
+    }
+
+    .yellow{
+        font-size: 14px;
+        font-weight: 100;
+        color: yellow;
+    }
+
+    .green{
+        font-size: 14px;
+        font-weight: 100;
+        color: green;
+    }
+
+    .app{
+        display: grid;
+        gap: 2rem;
+        grid-auto-columns: auto auto auto auto auto auto auto auto auto;
+        grid-template-columns: repeat(9, auto); 
+    }
